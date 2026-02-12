@@ -1,0 +1,9 @@
+{
+  "name": "gold-rate-trade-analyst",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed:retail": "bun scripts/seed-retail.js",
+    "poll:retail": "node scripts/poll-retail-snapshot.js"
+  }
+}
